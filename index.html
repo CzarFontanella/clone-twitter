@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CloneSky</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- sidebar starts -->
+    <div class="sidebar">
+        <i class="fab fa-twitter"></i>
+        <div class="sidebarOption active">
+            <span class="material-icons"> home </span>
+            <h2>Home</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> search </span>
+            <h2>Explorar</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> notifications_none </span>
+            <h2>Notificações</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> mail_outline </span>
+            <h2>Messagens</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> bookmark_border </span>
+            <h2>Bookmarks</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> list_alt </span>
+            <h2>Listas</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> perm_identity </span>
+            <h2>Perfil</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"> more_horiz </span>
+            <h2>Mais</h2>
+        </div>
+        <button class="sidebar__tweet">Tweet</button>
+    </div>
+    <!-- sidebar ends -->
+
+    <!-- feed starts -->
+    <div class="feed">
+        <div class="feed__header">
+            <h2>Home</h2>
+        </div>
+
+        <!-- tweetbox starts -->
+        <div class="tweetBox">
+            <form>
+                <div class="tweetbox__input">
+                    <img src="imagens/profile.png" alt="" />
+                    <input type="text" placeholder="O que está acontecendo?" />
+                </div>
+                <button class="tweetBox__tweetButton">Tweet</button>
+            </form>
+        </div>
+        <!-- tweetbox ends -->
+
+        <!-- post starts -->
+        <div class="post">
+            <div class="post__avatar">
+                <img src="imagens/profile.png" alt="" />
+            </div>
+
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Codi Academy
+                            <span class="post__headerSpecial"><span class="material-icons post__badge"> verified
+                                </span>@codiacademy</span>
+                        </h3>
+                    </div>
+                    <div class="post__headerDescription">
+                        <p>O #ImersãoFrontend será realizado no DCC da UFJF!</p>
+                    </div>
+                </div>
+                <img src="https://pr1.nicelocal.br.com/CpSDCFfR-3w1lHim3bP3uA/640x360,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2Q1jKGknx1V6IoOeVTD8Jk6QMF0Mg6Poe7k17m-0XzYHryLESl8kNM4hGhfqOD8ocw"
+                    alt="" />
+                <div class="post__footer">
+                    <span class="material-icons"> comment </span>
+                    <span class="material-icons"> repeat </span>
+                    <span class="material-icons"> favorite_border </span>
+                    <span class="material-icons"> publish </span>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- post ends -->
+
+        <!-- post starts -->
+        <div class="post">
+            <div class="post__avatar">
+                <img src="imagens/profile.png" alt="" />
+            </div>
+
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Codi Academy
+                            <span class="post__headerSpecial"><span class="material-icons post__badge"> verified
+                                </span>@codiacademy</span>
+                        </h3>
+                    </div>
+                    <div class="post__headerDescription">
+                        <p>Entre os dias 19/7 a 28/7, Garanta já a sua vaga!</p>
+                    </div>
+                </div>
+
+                <div class="post__footer">
+                    <span class="material-icons"> comment </span>
+                    <span class="material-icons"> repeat </span>
+                    <span class="material-icons"> favorite_border </span>
+                    <span class="material-icons"> publish </span>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- post ends -->
+
+    </div>
+    <!-- feed ends -->
+
+    <!-- widgets starts -->
+    <div class="widgets">
+
+        <div class="widgets__input">
+            <span class="material-icons widgets__searchIcon"> search </span>
+            <input type="text" placeholder=" Buscar no Twitter" />
+        </div>
+
+        <div class="widgets__widgetTrending">
+            <h2>Assuntos do Momento</h2>
+            <div class="trending">#CodiAcademy</div>
+            <div class="trending">DCC</div>
+            <div class="trending">Imersão</div>
+            <div class="trending">UFJF</div>
+            <div class="trending">Imersão Frontend</div>
+            <div class="trending">Evento</div>
+            <div class="trending">Elson</div>
+            <div class="trending">Internet</div>
+            <div class="trending">Toledo</div>
+            <div class="trending">Ruy</div>
+        </div>
+    </div>
+    <!-- widgets ends -->
+</body>
+
+</html>
